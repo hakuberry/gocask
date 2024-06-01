@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  gocask-test:
+    build:
+      context: .
+      args:
+        - DEV=true
